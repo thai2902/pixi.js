@@ -31,11 +31,11 @@ export default class ContextSystem extends System
          * Extensions being used
          * @member {object}
          * @readonly
-         * @property {WEBGL_draw_buffers} drawBuffers - WebGL v1 extension
+         * @property {object} drawBuffers - WebGL v1 extension
          * @property {WEBGL_depth_texture} depthTexture - WebGL v1 extension
          * @property {OES_texture_float} floatTexture - WebGL v1 extension
-         * @property {WEBGL_lose_context} loseContext - WebGL v1 extension
-         * @property {OES_vertex_array_object} vertexArrayObject - WebGL v1 extension
+         * @property {object} loseContext - WebGL v1 extension
+         * @property {object} vertexArrayObject - WebGL v1 extension
          * @property {EXT_texture_filter_anisotropic} anisotropicFiltering - WebGL v1 and v2 extension
          */
         this.extensions = {};
