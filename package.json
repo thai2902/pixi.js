@@ -1,4 +1,5 @@
 {
+  "version": "5.1.0",
   "name": "pixi.js-monorepo",
   "private": true,
   "scripts": {
